@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"barion": {
+			"type": "stdio",
+			"command": "npx",
+			"args": ["barion-mcp"],
+			"env": {
+				"BARION_POS_KEY": "your_poskey_here",
+				"BARION_API_KEY": "your_api_key_here"
+			}
+		}
+	},
+	"inputs": []
+}
